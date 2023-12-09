@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
-data = pd.read_excel(r'D:\0文献整理\网络入侵检测\KDD99\vif_after_alpha0.04.xlsx')
+data = pd.read_excel(r'D:\0文献整理\网络入侵检测\KDD99\vif_after_alpha0.03.xlsx')
 
 X = data.iloc[:, 0:-1]
 y = data.iloc[:, -1]
